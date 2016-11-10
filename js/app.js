@@ -2,6 +2,7 @@ var ViewModel = function() {
   this.clickCount = ko.observable(0);
   this.name = ko.observable('Tabby');
   this.imgSrc = ko.observable('img/434164568_fea0ad4013_z.jpg');
+  this.nicknames = ['Tabtab', 'T-Bone', 'Mr. T'];
 
   this.level = ko.computed(function() {
     var clickCount = this.clickCount();
